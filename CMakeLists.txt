@@ -81,7 +81,7 @@ install(
 
 
 install(
-  DIRECTORY controllers launch/
+  DIRECTORY controllers launch/ description
   DESTINATION share/${PROJECT_NAME}
 )
 

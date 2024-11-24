@@ -14,10 +14,10 @@ diff_controller:
     left_wheel_names: ['left_wheel_joint']
     right_wheel_names: ['right_wheel_joint']
     wheels_per_side: 1
-    wheel_separation: 0.3
-    wheel_radius: 0.05
+    wheel_separation: 0.15
+    wheel_radius: 0.04
     base_frame_id: base_link
-    use_stamped_vel: false
+    use_stamped_vel: true
 
     linear.x.has_velocity_limits: false
     linear.x.has_acceleration_limits: false
