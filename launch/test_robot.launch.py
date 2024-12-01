@@ -43,14 +43,12 @@ def generate_launch_description():
         #remappings=[("/diff_drive_controller/cmd_vel", "/cmd_vel"),],
     )
 
-    """
     robot_state_pub_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
         output="both",
         parameters=[robot_description],
     )
-    """
 
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
